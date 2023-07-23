@@ -1,0 +1,34 @@
+{
+  "name": "@reyadeyat/kateb",
+  "version": "0.0.1",
+  "description": "Kateb - Reyadeyat Mathematics Book in HTML and vanilla Javascript",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reyadeyat/Kateb.git"
+  },
+  "keywords": [
+    "Kateb",
+    "Render",
+    "Json",
+    "SVG",
+    "Graphics",
+    "HTML",
+    "Javascript"
+  ],
+  "author": "Mohammad Nabil Mostafa <coder@mnabil.net>",
+  "license": "SEE LICENSE IN <https://reyadeyat.net/LICENSE/KATEB.LICENSE>",
+  "bugs": {
+    "url": "https://github.com/Reyadeyat/Kateb/issues"
+  },
+  "homepage": "https://github.com/Reyadeyat/Kateb#readme",
+  "devDependencies": {
+    "npx": "^10.2.2",
+    "typescript": "~5.1.3"
+  }
+}
