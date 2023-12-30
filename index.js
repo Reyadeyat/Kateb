@@ -23,6 +23,17 @@ import { ketab } from './ketab.js';
 export class Kateb {
 
     constructor(kateb_json) {
+        let rassam_json = {
+            posX: 50,
+            canvas_container_id: "kateb_rassam_container",
+            canvas_fore_color: "white",
+            canvas_back_color: "black",
+            canvas_width: 400,
+            canvas_height: 400,
+            log_level: 'TRACE_DATA'
+          }
+          this.rasem = new Rasem(rassam_json);
+          this.rasem.draw();
         
     }
 }
