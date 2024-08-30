@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Reyadeyat/Kateb.git"
+    "url": "git+https://github.com/Reyadeyat/Kateb.git"
   },
   "keywords": [
     "Kateb",
@@ -22,7 +22,7 @@
     "Javascript"
   ],
   "author": "Mohammad Nabil Mostafa <coder@mnabil.net>",
-  "license": "SEE LICENSE IN <https://reyadeyat.net/LICENSE/KATEB.LICENSE>",
+  "license": "SEE LICENSE IN <https://reyadeyat.net/REYADEYAT.LICENSE>",
   "bugs": {
     "url": "https://github.com/Reyadeyat/Kateb/issues"
   },
@@ -31,9 +31,9 @@
     "npx": "^10.2.2",
     "typescript": "~5.1.3"
   },
-  "dependencies": {
-    "@reyadeyat/haseb": "0.0.1",
-    "@reyadeyat/rasem": "0.0.1"
+  "peerDependencies": {
+    "@reyadeyat/haseb": "file:../Haseb/reyadeyat-haseb-0.0.7.tgz",
+    "@reyadeyat/rasem": "file:../Rasem/reyadeyat-rasem-0.0.1.tgz"
   },
   "bundleDependencies": [
     "@reyadeyat/rasem",
